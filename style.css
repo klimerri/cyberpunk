@@ -1,0 +1,505 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    border: none;
+}
+
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero{
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: changing 20s infinite;
+}
+
+@keyframes changing {
+    0%{
+        background-image: url(images/11.jpg);
+    }
+    33%{
+        background-image: url(images/12.jpg);
+    }
+    66%{
+        background-image: url(images/13.jpg);
+    }
+}
+
+.platform__item{
+    width: 30px;
+    height: 30px;
+}
+
+.platrforms__list{
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 540px;
+}
+
+.hero__info{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 58px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.hero__button{
+    padding: 19px 50px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8F200;
+    font-size: 24px;
+    background-color: black;
+    margin: 0px;
+    transition: background-color 1s;
+}
+
+.hero__button:hover{
+    background-color: rgb(71, 72, 51);
+}
+
+.hero-info__container{
+    padding: 50px;
+    background-color: #F8F200;
+    width: 43%;
+    margin-right: 0;
+    margin-left: auto;
+    clip-path: polygon(0 12%, 10% 0, 100% 0, 100% 88%, 90% 100%, 0% 100%);
+}
+
+.about{
+    margin: 70px 0px;
+}
+
+.about__title{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 62px;
+    margin: 0px 0px 25px 0px;
+}
+
+.about__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 0px 0px 70px 0px;
+    line-height: 34px;
+}
+
+.about__text-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #49d9f3;
+    font-size: 18px;
+}
+
+.image__left{
+    width: 460px;
+    height: 196px;
+    margin-bottom: 32px;
+    clip-path: polygon(0 12%, 10% 0, 100% 0, 100% 88%, 90% 100%, 0% 100%);
+}
+
+.image__right{
+    width: 788px;
+    height: 424px;
+    clip-path: polygon(0 12%, 10% 0, 100% 0, 100% 88%, 90% 100%, 0% 100%);
+}
+
+.about__left{
+    display: block;
+    width: min-content;
+    justify-content: space-between;
+}
+
+.about__right{
+    width: max-content;
+}
+
+.about__images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game{
+    background-color: black;
+    position: relative;
+    padding: 50px 0px;
+}
+
+.game::before{
+    content: "";
+    background-image: url(images/game_before.png);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: -70px;
+}
+
+.game::after{
+    content: "";
+    background-image: url(images/game_after.png);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: -70px;
+}
+
+.game__title-text{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+    width: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sale_img{
+    width: 132px;
+    height: 132px;
+    margin-right: 32px;
+}
+
+.game__title{
+    display: flex;
+}
+
+.game__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    margin: 25px 0px;
+    width: 75%;
+    line-height: 34px;
+}
+
+.game__text-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #49d9f3;
+    font-size: 18px;
+}
+
+input{
+    border: none;
+}
+
+.input_form{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    width: 460px;
+    margin-bottom: 35px;
+}
+
+.input__form-file{
+    background-color: transparent;
+    height: 0.1px;
+    width: 0.1px;
+}
+
+.game__button{
+    background-color: #F8F200;
+    padding: 20px 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    transition: background-color 1s;
+    margin-top: 85px;
+}
+
+.game__button:hover{
+    background-color: #888602;
+}
+
+.input__form-email{
+    margin-bottom: 85px;
+}
+
+.File__label{
+    background-color: transparent;
+    width: 460px;
+    height: 120px;
+    border: 1px dashed rgb(138, 138, 138);
+    padding: 40px 137px 60px 137px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(138, 138, 138);;
+    font-size: 18px;
+    margin: 35px 0px;
+    position: relative;
+}
+
+.File__label::after{
+    content: ".png / .jpg / .pdf";
+    position: absolute;
+    left: 165px;
+    top: 60px;
+}
+
+.checkbox{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.form__box{
+    display: block;
+}
+
+.game__picture{
+    width: 50%;
+}
+
+.game__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hp{
+    background-color: #F8F200;
+    padding: 70px 0px;
+}
+
+.hp__title{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 58px;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.hp__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0px;
+}
+
+.hp__icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.text__hp{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 0px;
+}
+
+.hp__item{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hp__list{
+    padding: 0px;
+}
+
+.container__hp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.hp__monitor{
+    width: 624px;
+    height: 430px;
+}
+
+.x_logo{
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hp__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.hp__left-side{
+    margin-right: 30px;
+}
+
+.hp__button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F8F200;
+    font-size: 18px;
+    padding: 19px 50px;
+    background-color: black;
+    transition: background-color 1s;
+}
+
+.hp__button:hover{
+    background-color: rgb(71, 72, 51);
+}
+
+.buy{
+    background-color: black;
+    position: relative;
+}
+
+.buy_img{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.container__buy{
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 0px;
+}
+
+.buy_info{
+    display: block;
+    width: 47%;
+}
+
+.buy__title{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+    margin: 25px 0px;
+}
+
+.buy__subtitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #49d9f3;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.buy__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+    margin: auto 0px;
+}
+
+.buy__item-img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.buy__item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buy__list{
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.buy_platforms{
+    padding: 0px;
+    display: grid;
+    gap: 40px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 320px;
+}
+
+.footer__link{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    font-size: 18px;
+    margin-left: 32px;
+    width: min-content;
+    transition: color linear 1s;
+}
+
+.footer__link:hover{
+    color: #49d9f3;
+}
+
+.footer__list{
+    display: flex;
+    text-align: center;
+}
+
+.footer__logo{
+    display: flex;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    padding: 20px 0px;
+}
