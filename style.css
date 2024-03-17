@@ -503,3 +503,268 @@ input{
 footer{
     padding: 20px 0px;
 }
+
+@media (max-width: 1300px){
+    .container{
+        width: auto;
+        padding: 0px 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about__images {
+        display: block;
+    }
+
+    .about__left {
+        display: flex;
+        width: auto;
+    }
+
+    .image__right {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about__right {
+        width: 100%;
+    }
+
+    .game__content{
+        display: block;
+        width: auto;
+        margin: 0px auto;
+    }
+
+    .game__picture {
+        width: 100%;
+    }
+
+    .form__box{
+        width: 470px;
+    }
+
+    .game__text{
+        width: 100%;
+    }
+
+    .hp__monitor{
+        width: 100%;
+        height: auto;
+    }
+
+    .hp__left-side{
+        width: 50%;
+    }
+
+    .hp__logo{
+        width: 100%;
+    }
+
+    .buy_info{
+        width: 69%;
+    }
+
+    .buy_img{
+        width: 30%
+    }
+
+    .image__left {
+        width: 50%;
+        height: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container__hp {
+        display: block;
+    }
+
+    .hp__left-side {
+        margin: 5px auto;
+    }
+
+    .footer__container {
+        display: block;
+    }
+
+    .footer__logo {
+        display: block;
+        width: min-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .footer__list {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .footer__item{
+        margin-bottom: 10px;
+    }
+
+    .footer__link{
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 870px){
+    .header__container {
+        display: block;
+        margin-bottom: 450px;
+        text-align: center;
+    }
+
+    .navigation{
+        margin-left: auto;
+        margin-right: auto;
+        width: min-content;
+    }
+
+    .platrforms__list{
+        padding: 0px 0px;
+    }
+
+    .hero__info {
+        font-size: 36px;
+    }
+
+    .hero__button {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+
+    .hero-info__container {
+        padding: 30px;
+        width: 55%;
+    }
+
+    .about__title {
+        font-size: 36px;
+    }
+
+    .game__title-text {
+        font-size: 36px;
+    }
+
+    .hp__title {
+        font-size: 36px;
+    }
+
+    .buy__title {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 570px){
+    .container{
+        padding: 0 12px;
+    }
+
+    .about__left {
+        display: block;
+        width: auto;
+    }
+
+    .image__left {
+        width: 100%;
+    }
+
+    .input_form{
+        width: 280px;
+    }
+
+    .File__label{
+        padding: 40px 40px 40px 50px
+    }
+
+    .File__label::after{
+        content: none;
+    }
+
+    .form__box {
+        width: 290px;
+    }
+
+    .game__button {
+        padding: 12px 35px;
+        margin-top: 60px
+    }
+
+    .checkbox{
+        font-size: 12px;
+    }
+
+    .buy_img {
+        width: 100%;
+        height: 20%;
+    }
+
+    .buy_info {
+        width: 100%;
+        margin-top: 151px;
+    }
+
+    .buy_platforms {
+        gap: 22px 10px;
+        width: 280px;
+    }
+
+    .logo_logo{
+        width: 175px;
+        height: 44px;
+    }
+
+    .hp_logo{
+        width: 44px;
+        height: 44px;
+    }
+
+    .x_logo{
+        width: 45px;
+        height: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .hp_button{
+        padding: 15px 35px;
+    }
+}
+
+@media (max-width: 420px){
+    .logo, .cyberpunk_logo{
+        width: 200px;
+        height: 50px;
+    }
+
+    .platrforms__list {
+        column-gap: 20px;
+    }
+
+    .hero-info__container {
+        padding: 20px;
+        width: 85%;
+        margin-right: auto;
+    }
+
+    .game__title {
+        display: block;
+    }
+
+    .game__title-text{
+        width: auto;
+    }
+
+    .sale_img {
+        width: 100px;
+        height: 100px;
+    }
+}
